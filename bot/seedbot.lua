@@ -271,7 +271,7 @@ function create_config( )
     "invsudo"
   },
 
-    sudo_users = {98120772,152065669,61690296,0,tonumber(our_id)},--Sudo users
+    sudo_users = {189308877,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🌐 Nort AntiSpam Bot for Telegram SuperGroups.
 Based on LUA. 🌐
@@ -303,7 +303,6 @@ Http://github.com/nort-ir
 ]],
     help_text_realm = [[ Realm Help Text ]],
     help_text = [[
- 💠 دستورات ربات ضد اسپم نورت 💠
 ------------------------------
 🔹لیست راهنمای پلاگین ها 
 /helps
@@ -312,8 +311,7 @@ Http://github.com/nort-ir
 🔹 لیست راهنمای خصوصی 
 /help_pv
 ------------------------------
-@nortteam Anti Spam Nort
-]],
+
 	help_text_super =[[
 Enable Help plugins please.
 ]],
